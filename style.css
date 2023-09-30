@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(29,29,35);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main>h1{
+    margin: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* First timer section CSS */
+.displaytimercss{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(52, 52, 74);
+    padding: 30px;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.displaytimercss>p{
+    font-size: 25px;
+    font-weight: 500 ;
+}
+/* to remove the outline of input  */
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.edittime{
+    width: 70px;
+    font-size: 40px;
+    background-color: rgb(52, 52, 74);
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.btncss{
+    background-color: rgb(240,247,87) ;
+    width: 8vw;
+    font-size: 20px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+/* 2ND TIMER SECTION CSS */
+
+.thirdsection{
+    margin: 50px;
+    text-align: center;
+}
+#displaytimerbtn{
+    width: 30vw;
+    background-color: rgb(57,57,62);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+  
+    
+}
+
+/* 3rd TIMER SECTION CSS */
+
+.fourthsection{
+    text-align: center;
+    font-size: 23 px;
+    font-weight: 500;
+}
+
+.vanishedtext{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Functionality CSS of Slot */
+
+.timeralert{
+    text-align: center;
+    color: rgb(52, 52, 74);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 17vw;
+    margin-right: 115px;
+    
+}
+
+.alarmover{
+    background-color: rgb(240,247,87) ;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 35px;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.btnchanged{
+    color: rgb(240,247,87);
+    background-color: rgb(52, 52, 74);
+    width: 8vw;
+    font-size: 20px;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 35px;
+    text-align: center;
+}
